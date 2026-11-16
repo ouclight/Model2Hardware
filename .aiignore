@@ -1,0 +1,17 @@
+# 哪些文件不能给 AI 看。
+# 各 AI 工具读取的忽略文件名不同，映射成对应格式即可。
+
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials/
+data/raw/
+data/private/
+outputs/
+*.png
+*.jpg
+__pycache__/
+.venv/
+*.pyc
